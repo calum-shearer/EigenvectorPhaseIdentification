@@ -16,4 +16,4 @@ The circuit is standard Grover Search, where the Oracle tags the desired state $
 
 We also include a function generating a random diagonal of the desired form with specified $t$ and $x$ satisfying $\varphi(x)=t$, along with a function that returns the probability of the success of the Grover Search for such a random diagonal.
 
-We plot $\log_2(\text{Probability of success})$ for $n=d=3 ... 9$, in order to verify that the change of failure is $O(2^{-n})$. We also include a histogram of outcomes simulated by AerSimulator.
+We plot $\log_2(\text{Probability of success})$ for $n=d=3 ... 9$, in order to verify that the chance of failure is $O(2^{-n})$ (although the probability of success is not monotone increasing for all $n$). We also include a histogram of outcomes simulated by AerSimulator.
